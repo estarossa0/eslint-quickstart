@@ -1,5 +1,5 @@
 {
-  "name": "eslint-quicksetup",
+  "name": "@estarossa0/eslint-quicksetup",
   "version": "1.0.0",
   "description": "Package with all recommended style guides.",
   "main": "index.js",
@@ -22,8 +22,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/estarossa0/eslint-quickstart.git"
-  }
+  "repository": "https://github.com/estarossa0/eslint-quickstart.git"
 }
