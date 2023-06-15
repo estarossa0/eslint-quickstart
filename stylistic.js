@@ -17,15 +17,7 @@ const config = {
     'no-multi-assign': ['error'],
     'no-nested-ternary': ['error'],
     'no-unneeded-ternary': ['error'],
-    'prefer-arrow-functions/prefer-arrow-functions': [
-      'warn',
-      {
-        classPropertiesAllowed: false,
-        disallowPrototype: false,
-        returnStyle: 'unchanged',
-        singleReturnOnly: false,
-      },
-    ],
+    'prefer-arrow-functions/prefer-arrow-functions': ['off'],
     'prefer-object-spread': ['warn'],
   },
 };
