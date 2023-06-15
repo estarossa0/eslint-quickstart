@@ -8,3 +8,5 @@ const config = {
     'prefer-arrow-callback': 'off',
   },
 };
+
+module.exports = config;
