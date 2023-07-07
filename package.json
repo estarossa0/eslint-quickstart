@@ -1,6 +1,6 @@
 {
   "name": "@estarossa/eslint-quicksetup",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Package with all recommended eslint style guides.",
   "main": "index.js",
   "scripts": {
