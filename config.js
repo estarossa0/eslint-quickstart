@@ -10,6 +10,7 @@ module.exports = {
   ignorePatterns: ['*.js'],
   extends: [
     'standard-with-typescript',
+    'plugin:@next/next/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:unicorn/recommended',
     require.resolve('./stylistic.js'),
