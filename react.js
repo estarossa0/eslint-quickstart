@@ -2,7 +2,7 @@
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
-  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended'],
+  extends: ['next'],
   plugins: ['react'],
   settings: {
     react: {
