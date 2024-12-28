@@ -10,7 +10,6 @@ module.exports = {
   ignorePatterns: ['*.js'],
   extends: [
     'standard-with-typescript',
-    'plugin:@next/next/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:unicorn/recommended',
     require.resolve('./stylistic.js'),
@@ -23,7 +22,7 @@ module.exports = {
   plugins: ['unicorn', 'eslint-plugin-tsdoc', 'jsx-a11y', 'tailwindcss'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'tsdoc/syntax': ['error'],
+    'tsdoc/syntax': 'off',
     'tailwindcss/classnames-order': ['warn'],
   },
 };

@@ -7,7 +7,7 @@ const config = {
     'block-scoped-var': ['error'],
     curly: ['warn', 'multi-line'],
     'default-case-last': ['error'],
-    eqeqeq: ['error'],
+    eqeqeq: ['off'],
     'grouped-accessor-pairs': ['error'],
     'no-alert': ['error'],
     'no-caller': ['error'],
